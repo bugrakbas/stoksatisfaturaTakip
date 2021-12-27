@@ -32,6 +32,9 @@ public class KategoriController{
         return"musteri_anasayfa";
     }
 
+    @GetMapping({"/satistemsilcisi/satistemsilcisi_login"})
+    public String home5() {return"satistemsilcisi_anasayfa";}
+
     @RequestMapping(value="/addKategori/", method=RequestMethod.GET)
     public ModelAndView addKategori() {
 

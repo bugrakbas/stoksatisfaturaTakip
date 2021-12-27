@@ -31,6 +31,9 @@ public class UrunController{
         return"musteri_anasayfa";
     }
 
+    @GetMapping({"/satistemsilcisi_login"})
+    public String home5() {return"satistemsilcisi_anasayfa";}
+
 
     @RequestMapping(value="/addUrun/", method=RequestMethod.GET)
     public ModelAndView addUrun() {

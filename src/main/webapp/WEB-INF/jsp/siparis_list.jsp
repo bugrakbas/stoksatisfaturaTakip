@@ -22,11 +22,8 @@
         <div class="navbar-header">
             <a class="navbar-brand" href="/musteri/musteri/" style="background-color: black">Ana Sayfa</a>
         </div>
-            <li><a href="/urun/list">Ürünler</a></li>
-            <li><a href="/kategori/list">Kategoriler</a></li>
-            <li><a href="/kargofirmasi/list">Kargo Firması Ekranı</a></li>
-            <li><a href="/fatura/list">Faturalar<a/></li>
-            <li  class="active"><a href="/siparis/list">Siparişler</a></li>
+        <ul>
+            <li  class="active"><a href="/siparis/list">Sipariş Ekle</a></li>
         </ul>
     </div>
 </nav>

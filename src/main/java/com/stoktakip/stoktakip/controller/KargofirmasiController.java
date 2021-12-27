@@ -35,6 +35,9 @@ public class KargofirmasiController {
         return"musteri_anasayfa";
     }
 
+    @GetMapping({"/satistemsilcisi/satistemsilcisi_login"})
+    public String home5() {return"satistemsilcisi_anasayfa";}
+
 
     @RequestMapping(value="/addKargofirmasi/", method=RequestMethod.GET)
     public ModelAndView addKargofirmasi() {

@@ -49,6 +49,8 @@ public class SatistemsilcisiController{
     public String home4(){
         return"musteri_anasayfa";
     }
+    @GetMapping({"/satistemsilcisi/satistemsilcisi_login"})
+    public String home5() {return"satistemsilcisi_anasayfa";}
 
     @RequestMapping(value="/list", method=RequestMethod.GET)
     public ModelAndView list() {

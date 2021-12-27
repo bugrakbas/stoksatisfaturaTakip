@@ -9,7 +9,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>musterianasayfa List</title>
+    <title>musterianasayfa </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -168,11 +168,7 @@
             <a class="navbar-brand" href="/musteri/musteri/" style="background-color: black">Ana Sayfa</a>
         </div>
         <ul class="nav navbar-nav" style="background-color: black">
-            <li><a href="/fatura/list">Faturalar</a></li>
-            <li><a href="/urun/list">Ürünler</a></li>
-            <li><a href="/kategori/list">Kategoriler</a></li>
-            <li><a href="/kargofirmasi/list">Kargo Firması Ekranı</a></li>
-            <li><a href="/siparis/list">Siparişler</a></li>
+            <li><a href="/siparis/list">Sipariş Ekle</a></li>
 
         </ul>
         <spring:url value="http://localhost:8080/" var="editUrl" />

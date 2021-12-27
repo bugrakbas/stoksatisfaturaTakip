@@ -12,7 +12,7 @@
     <title>Müşteri List</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -23,16 +23,16 @@
 <div class="container">
     <table class="table table-striped table-bordered table-sm">
         <thead class="thead-dark">
-        <th scope="row">ID</th>
-        <th scope="row">Şehir Kodu</th>
-        <th scope="row">Müşteri No</th>
-        <th scope="row">Tc Kimlik No</th>
-        <th scope="row">Müşteri Ad Soyad</th>
-        <th scope="row">Müşteri Şifre</th>
-        <th scope="row">Müşteri Kullanıcı Adı</th>
-        <th scope="row">Müşteri Adres</th>
-        <th scope="row">Güncelle</th>
-        <th scope="row">Sil</th>
+        <th scope="row" style="color: white">ID</th>
+        <th scope="row" style="color: white">Şehir Kodu</th>
+        <th scope="row" style="color: white">Müşteri No</th>
+        <th scope="row" style="color: white">Tc Kimlik No</th>
+        <th scope="row" style="color: white">Müşteri Ad Soyad</th>
+        <th scope="row" style="color: white">Müşteri Şifre</th>
+        <th scope="row" style="color: white">Müşteri Kullanıcı Adı</th>
+        <th scope="row" style="color: white">Müşteri Adres</th>
+        <th scope="row" style="color: white">Güncelle</th>
+        <th scope="row" style="color: white">Sil</th>
         </thead>
         <tbody>
         <c:forEach items="${musteriList}" var="musteri" >

@@ -21,14 +21,14 @@
 <div class="container">
     <table class="table table-striped table-bordered table-sm">
         <thead class="thead-dark">
-        <th scope="row">ID</th>
-        <th scope="row">TC Kimlik No</th>
-        <th scope="row">Ad</th>
-        <th scope="row">Soyad</th>
-        <th scope="row">Şifre</th>
-        <th scope="row">Kullanıcı adı</th>
-        <th scope="row">Güncelle</th>
-        <th scope="row">Sil</th>
+        <th scope="row" style="color: white">ID</th>
+        <th scope="row" style="color: white">TC Kimlik No</th>
+        <th scope="row" style="color: white">Ad</th>
+        <th scope="row" style="color: white">Soyad</th>
+        <th scope="row" style="color: white">Şifre</th>
+        <th scope="row" style="color: white">Kullanıcı adı</th>
+        <th scope="row" style="color: white">Güncelle</th>
+        <th scope="row" style="color: white">Sil</th>
 
         </thead>
         <tbody>

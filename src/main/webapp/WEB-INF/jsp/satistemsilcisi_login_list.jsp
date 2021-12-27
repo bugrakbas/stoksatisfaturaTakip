@@ -64,12 +64,12 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-<body background="https://miro.medium.com/max/1200/1*dP81IJq-tGFxy1rIK3RYsg.png">
+<body background="https://wallpaperaccess.com/full/16677.jpg">
 
 <div class="container login-container">
     <div class="row">
         <div class="col-md-12 login-form-1">
-            <h1 align="center" style="color: black">ADMİN GİRİŞ</h1>
+            <h1 align="center"  style="color: white">ADMİN GİRİŞ</h1>
             <spring:url value="/satistemsilcisi/satistemsilcisi_login" var="loginURL" />
             <form:form modelAttribute="satistemsilcisi" method="post" action="${loginURL}" cssClass="form" >
                 <div class="form-group">

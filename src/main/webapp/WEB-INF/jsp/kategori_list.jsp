@@ -14,20 +14,19 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
-<body background="https://miro.medium.com/max/1200/1*dP81IJq-tGFxy1rIK3RYsg.png">
+<body background="https://wallpaperaccess.com/full/16677.jpg">
 
 <nav class="navbar navbar-inverse" style="background-color: black">
     <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="/musteri/musteri/" style="background-color: black">Ana Sayfa</a>
-        </div>
+
         <ul class="nav navbar-nav" style="background-color: black">
-            <li><a href="/urun/list">Ürünler</a></li>
-            <li><a href="/fatura/list">Faturalar</a></li>
-            <li><a href="/kargofirmasi/list">Kargo Firması Ekranı</a></li>
-            <li><a href="/siparis/list">Siparişler</a></li>
-            <li  class="active"><a href="/kategori/list">Kategoriler</a></li>
+            <li><a href="/urun/list">Ürün Ekle</a></li>
+            <li><a href="/fatura/list">Fatura Ekle</a></li>
+            <li><a href="/kargofirmasi/list">Kargo Firması Ekle</a></li>
+            <li  class="active"><a href="/kategori/list">Kategori Ekle</a></li>
         </ul>
+        <spring:url value="http://localhost:8080/" var="editUrl" />
+        <a class="btn btn-danger" href="${editUrl}" role="button">Çıkış</a>
     </div>
 </nav>
 
